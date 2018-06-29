@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:text="A transaction can be defined as a group of tasks. A single task is the minimum processing unit which cannot be divided further.\n
+Let’s take an example of a simple transaction. Suppose a bank employee transfers Rs 500 from A's account to B's account. This very simple and small transaction involves several low-level tasks.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="ACID Properties\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="A transaction is a very small unit of a program and it may contain several lowlevel tasks. A transaction in a database system must maintain Atomicity, Consistency, Isolation, and Durability − commonly known as ACID properties − in order to ensure accuracy, completeness, and data integrity.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:text="Atomicity\nConsistency\nIsolation\nDurability\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:id="@+id/textView14" />
+        <TextView
+            android:text="States of Transactions\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView15" />
+        <TextView
+            android:text="A transaction in a database can be in one of the following states −\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView16" />
+        <TextView
+            android:text="−>Active\n->Partially Committed\n->Failed\n->Aborted\n->Committed\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView17" />
+
+    </RelativeLayout>
+</ScrollView>

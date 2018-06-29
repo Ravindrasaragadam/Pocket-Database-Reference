@@ -1,0 +1,122 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi.projectl.TextFragment">
+
+
+    <TextView
+        android:text="Text References:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="SQLZoo includes tutorials and reference to support people learning SQL.   The website is available in English, German, and French. The site includes : Interactive access to several SQL engines. Sample databases, Practical exercise and Instant feedback of SQL Queries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:text="1st Reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSample"
+        android:layout_marginStart="18dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:text="Tutorial Point:"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textSample"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <TextView
+        android:text="2nd reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignStart="@+id/textView31"
+        android:id="@+id/refertext2" />
+
+    <TextView
+        android:text="Further References:"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView33" />
+
+    <TextView
+        android:text="-->troels.arvin.dk/db/rdbms/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:text="-->en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems"
+        android:layout_width="wrap_content"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView34"
+        android:layout_alignStart="@+id/textView34" />
+
+    <TextView
+        android:text="SQL Zoo :"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/sqlzoo"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView30"
+        android:layout_alignStart="@+id/textView30" />
+
+    <TextView
+        android:text="-->www.w3schools.com/sql/default.asp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView35"
+        android:layout_alignStart="@+id/textView35"
+        android:id="@+id/textView36" />
+
+    <TextView
+        android:text="-->www.khanacademy.org/computing/computer-programming/sql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:id="@+id/textView37" />
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:text="Functional Dependency\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Functional dependency (FD) is a set of constraints between two attributes in a relation. Functional dependency says that if two tuples have same values for attributes A1, A2,..., An, then those two tuples must have to have same values for attributes B1, B2, ..., Bn.\n
+Functional dependency is represented by an arrow sign (→) that is, X→Y, where X functionally determines Y. The left-hand side attributes determine the values of attributes on the right-hand side.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="An entity can be a real-world object, either animate or inanimate, that can be easily identifiable. For example, in a school database, students, teachers, classes, and courses offered can be considered as entities. All these entities have some attributes or properties that give them their identity.\n\n
+An entity set is a collection of similar types of entities. An entity set may contain entities with attribute sharing similar values. For example, a Students set may contain all the students of a school; likewise a Teachers set may contain all the teachers of a school from all faculties. Entity sets need not be disjoint.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:text="Armstrong's Axioms\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:id="@+id/textView14" />
+        <TextView
+            android:text="If F is a set of functional dependencies then the closure of F, denoted as F+, is the set of all functional dependencies logically implied by F. Armstrong's Axioms are a set of rules, that when applied repeatedly, generates a closure of functional dependencies.\n\n
+Reflexive rule − If alpha is a set of attributes and beta is_subset_of alpha, then alpha holds beta.\n\n
+Augmentation rule − If a → b holds and y is attribute set, then ay → by also holds. That is adding attributes in dependencies, does not change the basic dependencies.\n\n
+Transitivity rule − Same as transitive rule in algebra, if a → b holds and b → c holds, then a → c also holds. a → b is called as a functionally that determines b.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView15" />
+        <TextView
+            android:text="Trivial Functional Dependency\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView16" />
+        <TextView
+            android:text="Trivial − If a functional dependency (FD) X → Y holds, where Y is a subset of X, then it is called a trivial FD. Trivial FDs always hold.\n
+Non-trivial − If an FD X → Y holds, where Y is not a subset of X, then it is called a non-trivial FD.\n
+Completely non-trivial − If an FD X → Y holds, where x intersect Y = Φ, it is said to be a completely non-trivial FD.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView17" />
+        <TextView
+            android:text="Normalization\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView18" />
+        <TextView
+            android:text="If a database design is not perfect, it may contain anomalies, which are like a bad dream for any database administrator. Managing a database with anomalies is next to impossible.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView19" />
+        <TextView
+            android:text="Update anomalies − If data items are scattered and are not linked to each other properly, then it could lead to strange situations. For example, when we try to update one data item having its copies scattered over several places, a few instances get updated properly while a few others are left with old values. Such instances leave the database in an inconsistent state.\n\n
+Deletion anomalies − We tried to delete a record, but parts of it was left undeleted because of unawareness, the data is also saved somewhere else.\n\n
+Insert anomalies − We tried to insert data in a record that does not exist at all.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView20" />
+        <TextView
+            android:text="First Normal Form\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView21" />
+        <TextView
+            android:text="First Normal Form is defined in the definition of relations (tables) itself. This rule defines that all the attributes in a relation must have atomic domains. The values in an atomic domain are indivisible units.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView22" />
+        <TextView
+            android:text="Second Normal Form\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView23" />
+        <TextView
+            android:text="Before we learn about the second normal form, we need to understand the following −\n\n
+Prime attribute − An attribute, which is a part of the candidate-key, is known as a prime attribute.\n\n
+Non-prime attribute − An attribute, which is not a part of the prime-key, is said to be a non-prime attribute.\n\n
+If we follow second normal form, then every non-prime attribute should be fully functionally dependent on prime key attribute. That is, if X → A holds, then there should not be any proper subset Y of X, for which Y → A also holds true.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView24" />
+        <TextView
+            android:text="Third Normal Form\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView25" />
+        <TextView
+            android:text="For a relation to be in Third Normal Form, it must be in Second Normal form and the following must satisfy −\n\n
+->No non-prime attribute is transitively dependent on prime key attribute.\n
+->For any non-trivial functional dependency, X → A, then either −\n
+*X is a superkey or,\n
+*A is prime attribute.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView26" />
+        <TextView
+            android:text="Boyce-Codd Normal Form\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView26"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView27" />
+        <TextView
+            android:text="Boyce-Codd Normal Form (BCNF) is an extension of Third Normal Form on strict terms. BCNF states that −\n
+For any non-trivial functional dependency, X → A, X must be a super-key.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView28" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Database Tutorial">
+        <menu>
+            <item
+                android:id="@+id/nav_overview"
+                android:title="Overview" />
+            <item
+                android:id="@+id/nav_architecture"
+                android:title="Architecture" />
+            <item
+                android:id="@+id/nav_models"
+                android:title="Data Models" />
+            <item
+                android:id="@+id/nav_schemas"
+                android:title="Data Schemas" />
+        </menu>
+    </item>
+
+    <item android:title="Entity Relationship Model">
+        <menu>
+            <item
+                android:id="@+id/nav_erbasic"
+                android:title="Basic Concepts" />
+            <item
+                android:id="@+id/nav_generaliZation"
+                android:title="Generalization" />
+        </menu>
+    </item>
+
+    <item android:title="Relation Model">
+        <menu>
+            <item
+                android:id="@+id/nav_coddrule"
+                android:title="Codd's Rules" />
+            <item
+                android:id="@+id/nav_relationalmodel"
+                android:title="Relational Data Model" />
+            <item
+            android:id="@+id/nav_relationalalgebra"
+            android:title="Relational Algebra" />
+            <item
+                android:id="@+id/nav_sql"
+                android:title="SQL Overview" />
+        </menu>
+    </item>
+
+    <item android:title="Relation Database Design">
+        <menu>
+            <item
+                android:id="@+id/nav_normalisation"
+                android:title="Database Normalization" />
+            <item
+                android:id="@+id/nav_rdbjoins"
+                android:title="Database Joins" />
+        </menu>
+    </item>
+
+    <item android:title="Storage and File Structure">
+        <menu>
+            <item
+                android:id="@+id/nav_storagesystem"
+                android:title="DBMS Storage System" />
+            <item
+                android:id="@+id/nav_filestructure"
+                android:title="File Structure" />
+        </menu>
+    </item>
+
+    <item android:title="Indexing and Hashing">
+        <menu>
+            <item
+                android:id="@+id/nav_transaction"
+                android:title="DBMS Transaction" />
+            <item
+                android:id="@+id/nav_concurrencycontrol"
+                android:title="DBMS - Concurrency Control" />
+            <item
+                android:id="@+id/nav_deadlock"
+                android:title="DBMS - Deadlock" />
+        </menu>
+    </item>
+
+    <item android:title="Backup and Recovery">
+        <menu>
+            <item
+                android:id="@+id/nav_databackup"
+                android:title="DBMS Data Backup" />
+            <item
+                android:id="@+id/nav_recovery"
+                android:title="Data Recovery" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi.projectl.TestFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="Test your Knowledge"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView38" />
+
+    <TextView
+        android:text="Difficulty level:"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView38"
+        android:layout_marginTop="47dp"
+        android:id="@+id/textView39" />
+
+    <Button
+        android:text="Hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/button10"
+        android:background="@android:drawable/ic_menu_myplaces"
+        android:layout_below="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <Button
+        android:text="Easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:background="@android:drawable/zoom_plate"
+        android:layout_below="@+id/textView39"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

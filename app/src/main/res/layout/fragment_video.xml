@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravi.projectl.VideoFragment">
+
+
+    <TextView
+        android:text="Video References:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView32" />
+
+    <Button
+        android:text="Database Management System by Prof.D.Janakiram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="DBMS by Shrenik Jain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:text="Overview of SQL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_above="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:text="ACID properties in DBMS "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:text="Cost Models "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="17dp"
+        android:id="@+id/button7" />
+
+    <TextView
+        android:text="for further reference you can also check here www.studytonight.com/dbms/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/moreoptions"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Query optimisation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:text="Normalization | Database Management System"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

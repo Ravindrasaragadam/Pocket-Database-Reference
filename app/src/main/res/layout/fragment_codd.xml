@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:text="Dr Edgar F. Codd, after his extensive research on the Relational Model of database systems, came up with twelve rules of his own, which according to him, a database must obey in order to be regarded as a true relational database.\n
+
+These rules can be applied on any database system that manages stored data using only its relational capabilities. This is a foundation rule, which acts as a base for all the other rules.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Rule 1: Information Rule\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 2: Guaranteed Access Rule\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 3: Systematic Treatment of NULL Values\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView14"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 4: Active Online Catalog\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 5: Comprehensive Data Sub-Language Rule\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 6: View Updating Rule\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 7: High-Level Insert, Update, and Delete Rule\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 8: Physical Data Independence\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true" />
+        <TextView
+        android:text="Rule 9: Logical Data Independence\n"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 10: Integrity Independence\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/textView20"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 11: Distribution Independence\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView22"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:text="Rule 12: Non-Subversion Rule\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:text="The ER model defines the conceptual view of a database. It works around real-world entities and the associations among them. At view level, the ER model is considered a good option for designing databases.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Entity\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="An entity can be a real-world object, either animate or inanimate, that can be easily identifiable. For example, in a school database, students, teachers, classes, and courses offered can be considered as entities. All these entities have some attributes or properties that give them their identity.\n
+
+An entity set is a collection of similar types of entities. An entity set may contain entities with attribute sharing similar values. For example, a Students set may contain all the students of a school; likewise a Teachers set may contain all the teachers of a school from all faculties. Entity sets need not be disjoint.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:text="Attributes\n"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:id="@+id/textView14" />
+        <TextView
+            android:text="Entities are represented by means of their properties, called attributes. All attributes have values. For example, a student entity may have name, class, and age as attributes.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView15" />
+        <TextView
+            android:text="Types of Attributes\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView16" />
+        <TextView
+            android:text="->Simple attribute\n->Composite attribute\n->Derived attribute\n->Single-value attribute\n->Multi-value attribute\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView17" />
+        <TextView
+            android:text="These attribute types can come together in a way like −\n
+*simple single-valued attributes\n
+*simple multi-valued attributes\n
+*composite single-valued attributes\n
+*composite multi-valued attributes\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView18" />
+        <TextView
+            android:text="Entity-Set and Keys\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView19" />
+        <TextView
+            android:text="->Super Key\n->Candidate Key\n->Primary Key\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView20" />
+        <TextView
+            android:text="Relationship\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView21" />
+        <TextView
+            android:text="The association among entities is called a relationship. For example, an employee works_at a department, a student enrolls in a course. Here, Works_at and Enrolls are called relationships.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView22" />
+        <TextView
+            android:text="Relationship Set\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView23" />
+        <TextView
+            android:text="A set of relationships of similar type is called a relationship set. Like entities, a relationship too can have attributes. These attributes are called descriptive attributes.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView24" />
+        <TextView
+            android:text="Degree of Relationship\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView25" />
+        <TextView
+            android:text="The number of participating entities in a relationship defines the degree of the relationship.\n
+->Binary = degree 2\n
+->Ternary = degree 3\n
+->n-ary = degree\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView25"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView26" />
+        <TextView
+            android:text="Mapping Cardinalities\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView26"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView27" />
+        <TextView
+            android:text="Cardinality defines the number of entities in one entity set, which can be associated with the number of entities of other set via relationship set.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView28" />
+        <TextView
+            android:text=" ->One-to-one\n ->One-to-many\n ->Many-to-one\n ->Many-to-many\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView28"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView29" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:text="Relational database systems are expected to be equipped with a query language that can assist its users to query the database instances. There are two kinds of query languages − relational algebra and relational calculus.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Relational Algebra\n"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="The fundamental operations of relational algebra are as follows −\n
+->Select\n
+->Project\n
+->Union\n
+->Set different\n
+->Cartesian product\n
+->Rename\n\n"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:text="Select Operation (σ)\n"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:id="@+id/textView14" />
+        <TextView
+            android:text="It selects tuples that satisfy the given predicate from a relation.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView15" />
+        <TextView
+            android:text="Project Operation (∏)\n"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView15"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView16" />
+        <TextView
+            android:text="It projects column(s) that satisfy a given predicate.\n\n
+Notation − ∏A1, A2, An (r)\n\n
+Where A1, A2 , An are attribute names of relation r.\n\n
+Duplicate rows are automatically eliminated, as relation is a set.\n\n
+For example −\n\n
+∏subject, author (Books)\n
+Selects and projects columns named as subject and author from the relation Books.\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView17" />
+        <TextView
+            android:text="Union Operation (∪)\n"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView18" />
+        <TextView
+            android:text="It performs binary union between two given relations and is defined as −\n
+r ∪ s = { t | t ∈ r or t ∈ s}\n
+Notation − r U s\n\n
+Where r and s are either database relations or relation result set (temporary relation).\n\n
+For a union operation to be valid, the following conditions must hold −\n\n
+r, and s must have the same number of attributes.\n
+Attribute domains must be compatible.\n
+Duplicate tuples are automatically eliminated.\n
+∏ author (Books) ∪ ∏ author (Articles)\n
+Output − Projects the names of the authors who have either written a book or an article or both.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView19" />
+        <TextView
+            android:text="Set Difference (−)\n"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView20" />
+        <TextView
+            android:text="The result of set difference operation is tuples, which are present in one relation but are not in the second relation.\n\n
+Notation − r − s\n\n
+Finds all the tuples that are present in r but not in s.\n\n
+∏ author (Books) − ∏ author (Articles)\n
+Output − Provides the name of authors who have written books but not articles.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView21" />
+        <TextView
+            android:text="Cartesian Product (Χ)\n"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView22" />
+        <TextView
+            android:text="Combines information of two different relations into one.\n\n
+Notation − r Χ s\n\n
+Where r and s are relations and their output will be defined as −\n\n
+r Χ s = { q t | q ∈ r and t ∈ s}\n\n
+σ author = 'ravi'(Books Χ Articles)\n
+Output − Yields a relation, which shows all the books and articles written by ravi.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView23" />
+        <TextView
+            android:text="Rename Operation (ρ)\n"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView24" />
+        <TextView
+            android:text="The results of relational algebra are also relations but without any name. The rename operation allows us to rename the output relation. 'rename' operation is denoted with small Greek letter rho ρ.\n\n
+Notation − ρ x (E)\n\n
+Where the result of expression E is saved with name of x.\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView25" />
+        <TextView
+            android:text="The number of participating entities in a relationship defines the degree of the relationship.\n
+->Binary = degree 2\n
+->Ternary = degree 3\n
+->n-ary = degree\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView25"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView26" />
+
+
+    </RelativeLayout>
+</ScrollView>
